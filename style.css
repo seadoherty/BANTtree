@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 43, 77);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.link {
+  fill: none;
+  stroke: rgb(55, 68, 105);
+  stroke-width: 1px;
+}
